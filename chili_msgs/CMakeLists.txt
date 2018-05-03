@@ -9,7 +9,6 @@ project(chili_msgs)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   std_msgs
-  geometry_msgs
   message_generation
 )
 
@@ -55,9 +54,11 @@ add_message_files(
   Float64.msg
   Int32.msg
   Int64.msg
-  Pose.msg
-  Pose2D.msg
   String.msg
+  Vector2Float32.msg
+  Vector2Float64.msg
+  Vector3Float32.msg
+  Vector3Float64.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -77,8 +78,7 @@ add_message_files(
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES
-  std_msgs
-  geometry_msgs # Or other packages containing msgs
+  std_msgs # Or other packages containing msgs
 )
 
 ################################################
