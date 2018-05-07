@@ -55,6 +55,8 @@ add_message_files(
   Int32.msg
   Int64.msg
   String.msg
+  Vector2Int32.msg
+  Vector2Int64.msg
   Vector2Float32.msg
   Vector2Float64.msg
   Vector3Float32.msg
