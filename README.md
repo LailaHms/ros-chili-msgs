@@ -1,4 +1,4 @@
-## Generic ROS message types for usage with qml-ros plugin
+## Generic ROS message types
 
 Similar to ros::std_msgs but all messages contain header with timestamp and id field
 
@@ -6,5 +6,5 @@ Similar to ros::std_msgs but all messages contain header with timestamp and id f
 
  - Clone the repo into the `src` directory of your catkin workspace
  - Run `catkin_make` from the root of your catkin workspace
- - Run `make install` or simply copy `*.h` files to the `include` folder of your ROS installation
+ - Run `catkin_make -DCMAKE_INSTALL_PREFIX=/opt/ros/<distro> install` or simply copy `*.h` files to the `include` folder of your ROS installation
  
