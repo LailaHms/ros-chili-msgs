@@ -50,17 +50,11 @@ add_message_files(
   FILES
   Header.msg
   Bool.msg
-  Float32.msg
-  Float64.msg
-  Int32.msg
-  Int64.msg
+  Int.msg
+  Double.msg
   String.msg
-  Vector2Int32.msg
-  Vector2Int64.msg
-  Vector2Float32.msg
-  Vector2Float64.msg
-  Vector3Float32.msg
-  Vector3Float64.msg
+  IntArray.msg
+  DoubleArray.msg
 )
 
 ## Generate services in the 'srv' folder

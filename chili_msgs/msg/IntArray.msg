@@ -1,2 +1,2 @@
 chili_msgs/Header header
-int64 value
+int32[] data
