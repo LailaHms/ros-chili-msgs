@@ -3,17 +3,17 @@
 ### Publish ROS messages from a QML application
  - Build and install the `chili-msgs` ROS package. Follow instructions [here](https://github.com/chili-epfl/ros-chili-msgs)
  - Build and install the `qml-ros-publisher` QML plugin. Follow instructions [here](https://github.com/chili-epfl/qml-ros-publisher)
- - Include the plugin in your application (`import ch.epfl.chili.ros.publisher`). Create an item of type RosPublisher. Set the ROS master IP and start the node. Now you can start publishing messages to topics. For more information about the interface, consult the plugin's header file.
+ - Include the plugin in your application (`import ch.epfl.chili.ros.publisher`). Create an item of type `RosPublisher`. Set the ROS master IP and start the node. Now you can start publishing messages to topics. For more information about the interface, consult the plugin's header file.
 
 ### Subscribe to ROS messages from a QML application
  - Build and install the `chili-msgs` ROS package. Follow instructions [here](https://github.com/chili-epfl/ros-chili-msgs)
  - Build and install the `qml-ros-subscriber` QML plugin. Follow instructions [here](https://github.com/chili-epfl/qml-ros-subscriber)
- - Include the plugin in your application (`import ch.epfl.chili.ros.subscriber`). Create an item of type RosSubscriber. Set the ROS master IP and start the node. Now you can start publishing messages to topics. For more information about the interface, consult the plugin's header file.
+ - Include the plugin in your application (`import ch.epfl.chili.ros.subscriber`). Create an item of type `RosSubscriber`. Set the ROS master IP and start the node. Now you can start publishing messages to topics. For more information about the interface, consult the plugin's header file.
 
 ### Record selected topics to a ROS bag from a QML application
  - Build and install the `rosbag_recorder` ROS package. Follow instructions [here](https://github.com/chili-epfl/rosbag-recorder)
  - Build and install the `qml-ros-recorder` QML plugin. Follow instructions [here](https://github.com/chili-epfl/qml-ros-recorder)
- - Include the plugin in your application (`import ch.epfl.chili.ros.recorder`). Create an Item of type RosRecorder. Set the ROS master IP and start the node. Now you can start publishing messages to topics. For more information about the interface, consult the plugin's header file.
+ - Include the plugin in your application (`import ch.epfl.chili.ros.recorder`). Create an Item of type `RosRecorder`. Set the ROS master IP and start the node. Now you can start publishing messages to topics. For more information about the interface, consult the plugin's header file.
  
  ### Annotate a ROS bag
  - Build and install the `chili-msgs` ROS package. Follow instructions [here](https://github.com/chili-epfl/ros-chili-msgs)
@@ -30,4 +30,3 @@
   - Use an up-to-date version of Qt (min. 5.11). Make sure to use the correct `qmake` binary.
   - Create a ROS launch file to start all nodes you require in one go.
   - Make sure the ROS libraries and the include directory are correctly setup system-wide.
- 
