@@ -29,4 +29,5 @@
  ### Other tips
   - Use an up-to-date version of Qt (min. 5.11). Make sure to use the correct `qmake` binary.
   - Create a ROS launch file to start all nodes you require in one go.
+  - Use a `systemd` unit file to start processes without user intervention, similar to [this](https://github.com/chili-epfl/ros-master-service)
   - Make sure the ROS libraries and the include directory are correctly setup system-wide.
