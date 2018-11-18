@@ -61,6 +61,9 @@ add_message_files(
   Trajectory.msg  
   Letter.msg
   Word.msg
+  Profile.msg
+  ChildId.msg
+  Answer.msg
 )
 
 ## Generate services in the 'srv' folder
