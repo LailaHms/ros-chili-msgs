@@ -64,6 +64,7 @@ add_message_files(
   Profile.msg
   ChildId.msg
   Answer.msg
+  NewWord.msg
 )
 
 ## Generate services in the 'srv' folder
