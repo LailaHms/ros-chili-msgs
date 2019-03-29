@@ -66,6 +66,7 @@ add_message_files(
   Answer.msg
   WordFeedback.msg
   NewWord.msg
+  RejoinParams.msg
 )
 
 ## Generate services in the 'srv' folder
